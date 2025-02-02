@@ -37,6 +37,7 @@ Bahasa yang dirancang untuk memberikan performa tinggi, fleksibilitas dan efisie
    - C++ memungkinkan akses langsung ke memori lewat pointers, sangat berguna untuk pemrograman sistem dan aplikasi dengan kinerjan tinggi.
 
 5. **Standard Template Library (STL)**:
-   -STL merupakan pustaka C++ yang mengoleksi _class_ dan _functions_, termasuk (seperti _vectors_, _list_, dan _maps_), algoritma (seperti _sorting_ dan _searching_), dan iterator.
+
+   - STL merupakan pustaka C++ yang mengoleksi _class_ dan _functions_, termasuk (seperti _vectors_, _list_, dan _maps_), algoritma (seperti _sorting_ dan _searching_), dan iterator.
 
 6. **Performan**:
