@@ -136,3 +136,112 @@ Bahasa yang dirancang untuk memberikan performa tinggi, fleksibilitas dan efisie
 
    - **Sangat Portable**: Kode java dikompilasi ke _bytecode_ yang dapat dijalankan di _Java Virtual Machine_ (_JVM_) di platform apapun.
    - Prinsip "_Write Once, Run Anywhere_" (WORA) membuat Java sangat portable.
+
+5. **Kinerja**:
+
+   **C**:
+
+   - _Kinerja Tinggi_: Karena manajemen memori manual dan kurangnya overhead, C sangat cepat dan efisien.
+   - Cocok untuk aplikasi yang membutuhkan kinerja tinggi, seperti sistem operasi dan embedded system.
+
+   **C++**:
+
+   - _Kinerja Tinggi_: Mirip dengan C, tetapi dengan sedikit overhead karena fitur OOP.
+   - Tetapi sangat efisien dan cocok untuk aplikasi yang membutuhkan kinerja tinggi.
+
+   **Java**:
+
+   - _Kinerja Sedang_: Karena pengguna JVM dan garbage collector, java memiliki overhead yang lebih tinggi dibanding C atau C++.
+   - Namun dengan optimasi modern, kinerja Java sudah mendekati C atau C++ untuk banyak kasus penggunaan.
+
+6. **Fitur Bahasa**:
+
+   **C**:
+
+   - Tidak memiliki fitur OOP.
+   - Tidak memiliki exception handling (penanganan kesalahan dikerjakan secara manual).
+   - Tidak memiliki template atau generik.
+
+   **C++**:
+
+   - Mendukung OOP, template, dan exception handling.
+   - Memiliki STL (Standard Template Library) yang menyediakan struktur data dan algoritma siap pakai.
+
+   **Java**:
+
+   - Menudukung OOP, exception handling, dan generik.
+   - Memiliki _Java Standard Library_ yang sangat kaya, termasuk koleksi, utilitas jaringan, dan GUI.
+   - Mendukung multithreading secara native.
+
+7. **Keamanan**:
+
+   **C**:
+
+   - _Rentan terhadap Kesalahan_: Karena manajemen memori manual dan kurangnya fitur keamanan bawaan, C rentan terhadap bug seperti buffer overflow dan dangling pointers.
+
+   **C++**:
+
+   - \*_Lebih Aman dari C_: Dengan fitur seperti RAII dan exception handling, C++ lebih aman daripada C, tetapi masih rentan terhadap kesalahan manajemen memori.
+
+   **Java**:
+
+   - _Sangat Aman_: Java dirancang dengan keamanan sebagai prioritas utama. Fitur seperti garbage collector, exception handling, dan sandboxing membuat Java lebih aman daripada C atau C++.
+
+8. **Penggunaan Utama**:
+
+   **C**:
+
+   - Sistem operasi,
+   - Embedded System,
+   - Driver Perangkat,
+   - dan Aplikasi yang membutuhkan kinerja tinggi.
+
+   **C++**:
+
+   - Game development,
+   - Sistem operasi,
+   - Aplikasi desktop,
+   - dan Aplikasi yang membutuhkan kinerjan tinggi.
+
+   **Java**:
+
+   - Aplikasi web (backend),
+   - Aplikasi android (mobile),
+   - Aplikasi enterprise,
+   - dan Distributed Systems.
+
+9. **Contoh Kode Sederhana**:
+
+   **C**:
+
+   ```
+   #include <stdio.h>
+
+   int main() {
+      printf("Hello, World!");
+
+      return 0;
+   }
+   ```
+
+   **C++**:
+
+   ```
+   #include <iostream>
+
+   int main() {
+      std::cout << "Hello, World!" << std::endl;
+
+      return 0;
+   }
+   ```
+
+   **Java**:
+
+   ```
+   public class Main {
+      public static void main(String[] args) {
+         System.out.println("Hello, World!");
+      }
+   }
+   ```
